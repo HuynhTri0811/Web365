@@ -1,0 +1,14 @@
+.au-video
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.au-video-item
+{
+    background-color: beige;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}

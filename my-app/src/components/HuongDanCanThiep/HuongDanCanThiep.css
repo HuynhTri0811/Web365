@@ -1,0 +1,43 @@
+.card {
+    height: 500px;
+}
+
+.btn-XemChiTiet
+{
+    margin: 10px;
+}
+
+.card-body-new
+{
+    height: 400px;
+}
+.card-danhsach
+{
+    height: 400px;
+}
+
+.au-video
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.au-video-item
+{
+    background-color: beige;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+.video-huongdan
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.huongdan
+{
+    width: 25%;
+}

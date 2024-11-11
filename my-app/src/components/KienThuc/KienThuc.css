@@ -1,0 +1,34 @@
+.card{
+    width: 350px;
+    padding: 0px;
+}
+.card .new-header-card{
+    color: #ffffff;
+    background-color: #9a6e0d;
+    height: 100px;
+    text-align: left;
+    padding: 10px;
+}
+.card-body
+{
+    padding: 0px;
+}
+.btn-XemChiTiet{
+    text-align: center;
+    margin: 10px;
+}
+
+.card-body-new{
+    padding: 10px;
+    height: 150px;
+}
+
+.HoiDap{
+    margin: 10px;
+}
+
+.img-item{
+    background-color: #9a6e0d;
+    height: 200px;
+    border: 1px solid;
+}
