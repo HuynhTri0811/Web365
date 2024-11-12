@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/huynhhuutri.github.io/static/css/main.0991bb6c.css",
+    "main.js": "/huynhhuutri.github.io/static/js/main.4cdc3d59.js",
+    "static/js/453.ed3810f9.chunk.js": "/huynhhuutri.github.io/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.png": "/huynhhuutri.github.io/static/media/logo.e626d57cbd84d7adc874.png",
+    "index.html": "/huynhhuutri.github.io/index.html",
+    "main.0991bb6c.css.map": "/huynhhuutri.github.io/static/css/main.0991bb6c.css.map",
+    "main.4cdc3d59.js.map": "/huynhhuutri.github.io/static/js/main.4cdc3d59.js.map",
+    "453.ed3810f9.chunk.js.map": "/huynhhuutri.github.io/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0991bb6c.css",
+    "static/js/main.4cdc3d59.js"
+  ]
+}
