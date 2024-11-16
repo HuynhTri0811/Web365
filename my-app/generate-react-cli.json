@@ -4,6 +4,7 @@
   "usesCssModule": true,
   "cssPreprocessor": "css",
   "testLibrary": "None",
+    "Access-Control-Allow-Origin": "*",
   "component": {
     "default": {
       "path": "src/components",

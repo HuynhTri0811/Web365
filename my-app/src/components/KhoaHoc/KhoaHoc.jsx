@@ -2,7 +2,10 @@ import React from 'react';
 import Grid2 from '@mui/material/Grid2';
 import './KhoaHoc.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-
+import AnhKhoaHoc1 from '../../assets/AnhKhoaHoc1.jpg'
+import AnhKhoaHoc2 from '../../assets/AnhKhoaHoc2.jpg'
+import AnhKhoaHoc3 from '../../assets/AnhKhoaHoc3.jpg'
+import AnhKhoaHoc4 from '../../assets/AnhKhoaHoc4.jpg'
 const KhoaHoc = () => {
   return (
     <div className='p-3 bg-light rounded shadow'>
@@ -21,8 +24,8 @@ const KhoaHoc = () => {
               </div>
             </Grid2>
             <Grid2 size={6}>
-              <div className='img-item'>
-                <img></img>
+              <div className='img-item' style={{width:"100%",height:"100%"}}>
+                <img src={AnhKhoaHoc1} style={{width:"100%",height:"100%"}}></img>
               </div>
             </Grid2>
           </Grid2>
@@ -30,8 +33,8 @@ const KhoaHoc = () => {
         <div className='KhoaHocBody-item'>
           <Grid2 container spacing={3}>
             <Grid2 size={6}>
-              <div className='img-item'>
-                <img></img>
+            <div className='img-item' style={{width:"100%",height:"100%"}}>
+                <img src={AnhKhoaHoc2} style={{width:"100%",height:"100%"}}></img>
               </div>
             </Grid2>
             <Grid2 size={6}>
@@ -55,8 +58,8 @@ const KhoaHoc = () => {
               </div>
             </Grid2>
             <Grid2 size={6}>
-              <div className='img-item'>
-                <img></img>
+            <div className='img-item' style={{width:"100%",height:"100%"}}>
+                <img src={AnhKhoaHoc3} style={{width:"100%",height:"100%"}}></img>
               </div>
             </Grid2>
           </Grid2>
@@ -64,8 +67,8 @@ const KhoaHoc = () => {
         <div className='KhoaHocBody-item'>
           <Grid2 container spacing={3}>
             <Grid2 size={6}>
-              <div className='img-item'>
-                <img></img>
+            <div className='img-item' style={{width:"100%",height:"100%"}}>
+                <img src={AnhKhoaHoc4} style={{width:"100%",height:"100%"}}></img>
               </div>
             </Grid2>
             <Grid2 size={6}>

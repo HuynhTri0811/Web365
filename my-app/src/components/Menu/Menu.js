@@ -5,9 +5,9 @@ import logo from '../../assets/logo.png'
 
 const Menu = () => { 
   return(
-    <nav className="navbar navbar-expand-lg navbar bg">
+    <nav className="navbar navbar-expand-lg navbar bg-light fixed-top">
     <div className="container-fluid">
-       <img src={logo} style={{height:"50px",width:"50px"}}/>
+       <Link to ="/"> <img src={logo} style={{height:"50px",width:"50px"}}/></Link>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">

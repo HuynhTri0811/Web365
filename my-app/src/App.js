@@ -5,6 +5,7 @@ import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header.js';
+import Footer from './components/Footer/Footer';
 import KhoaHoc from './components/KhoaHoc/KhoaHoc';
 import KienThuc from './components/KienThuc/KienThuc';
 import HuongDanCanThiep from './components/HuongDanCanThiep/HuongDanCanThiep';
@@ -19,7 +20,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <main className="container d-flex justify-content-center align-items-center" >
+        <main className="container pt-5 pb-5 d-flex justify-content-center align-items-center" >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -34,6 +35,7 @@ function App() {
             <Route path='/HuongDanCanThiep/DayTreGiaiQuyetTinhHuongCoBan' element={<DayTreGiaiQuyetTinhHuongCoBan />} />
           </Routes>
         </main>
+        <Footer/>
       </div>
     </Router>
   );

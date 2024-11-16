@@ -5,13 +5,16 @@ import Grid2 from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './HuongDanCanThiep.css'
+import AnhHuongDanCanThiep from '../../assets/HuongDanCanThiep.jpg';
 
 const HuongDanCanThiep = () => {
   return (
     <div className='p-3 bg-light rounded shadow'>
       <div className='au-video'>
         <div className='au-video-item'>
-
+          <div className='img-item' style={{width:"100%",height:"100%"}}>
+                <img src={AnhHuongDanCanThiep} style={{width:"100%",height:"100%"}}></img>
+              </div>
         </div>
       </div>
       <div>
@@ -19,7 +22,7 @@ const HuongDanCanThiep = () => {
           direction={{ xs: 'column', sm: 'row' }}
           spacing={{ xs: 2, sm: 2, md: 2 }}
         >
-          <Box className="card" >
+          <Box className="card" sx={{width: 350}}>
             <div className="card-body item1">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
@@ -34,7 +37,7 @@ const HuongDanCanThiep = () => {
               </div>
             </div>
           </Box>
-          <Box className="card item2">
+          <Box className="card item2" sx={{width: 350}}>
             <div className="card-body">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
@@ -49,7 +52,7 @@ const HuongDanCanThiep = () => {
               </div>
             </div>
           </Box>
-          <Box className="card item3">
+          <Box className="card item3" sx={{width: 350}}>
             <div className="card-body">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
@@ -66,10 +69,10 @@ const HuongDanCanThiep = () => {
           </Box>
         </Stack>
       </div>
-      <div>
-        <h1>Ví dụ một số video can thiệp mẫu trên A365</h1>
+      {/* <div>
+        <h1>Ví dụ một số video can thiệp mẫu trên AURORA</h1>
         <p>
-          A365 dự kiến sẽ xây dựng một kho dữ liệu với gần 300 video mẫu để hỗ trợ phụ huynh/giáo viên trong quá trình can thiệp cho trẻ. Hiện nay, có hơn 120 video đã được xây dựng hoàn thiện và đăng tải trong phần HƯỚNG DẪN CAN THIỆP. Dưới đây là ví dụ về một số video can thiệp trên A365. Để xem được hết các video can thiệp trên A365, bạn cần đăng ký tài khoản. Đăng ký tài khoản ngay.
+          AURORA dự kiến sẽ xây dựng một kho dữ liệu với gần 300 video mẫu để hỗ trợ phụ huynh/giáo viên trong quá trình can thiệp cho trẻ. Hiện nay, có hơn 120 video đã được xây dựng hoàn thiện và đăng tải trong phần HƯỚNG DẪN CAN THIỆP. Dưới đây là ví dụ về một số video can thiệp trên AURORA. Để xem được hết các video can thiệp trên AURORA, bạn cần đăng ký tài khoản. Đăng ký tài khoản ngay.
         </p>
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
@@ -105,7 +108,7 @@ const HuongDanCanThiep = () => {
             </div>
           </Box>
         </Stack>
-      </div>
+      </div> */}
     </div>
   );
 };
