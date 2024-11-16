@@ -1,5 +1,6 @@
 import React from 'react';
 import './DayTreHieuVaLamTheoYeuCau.css'
+import Anh5 from  '../../assets/Anh5.jpg';
 
 const DayTreHieuVaLamTheoYeuCau = () => {
   return (
@@ -9,7 +10,7 @@ const DayTreHieuVaLamTheoYeuCau = () => {
       <div>
       <div className='au-video'>
         <div className="au-video-item">
-
+          <img src={Anh5} style={{width:"100%",height:"100%"}} ></img>
         </div>
       </div>
       <div>

@@ -1,0 +1,7 @@
+/* For devices with width up to 600px */
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+    
+}

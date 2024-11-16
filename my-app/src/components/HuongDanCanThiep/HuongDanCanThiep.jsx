@@ -26,14 +26,14 @@ const HuongDanCanThiep = () => {
             <div className="card-body item1">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
-                  <h5 className="card-title">  I. TÌM HIỂU TRẺ ĐỂ XÂY DỰNG KẾ HOẠCH CAN THIỆP  </h5>
+                  <h5 className="card-title">  I. DẠY TRẺ HIỂU VÀ LÀM THEO YÊU CẦU CƠ BẢN  </h5>
                 </div>
                 <div className='card-body-new'>
                   <p className="card-text"> Giới thiệu các thông tin về sự phát triển thông thường của trẻ và những khó khăn ở trẻ có nhu cầu đặc biệt, kèm theo các hướng dẫn đặt mục tiêu can thiệp toàn diện để cha mẹ can thiệp cho trẻ tại gia đình						 </p>
                 </div>
               </div>
               <div className='btn-XemChiTiet'>
-                <Link to='/'> <a href="#" className="btn btn-danger">Xem chi tiết</a> </Link>
+                <Link to='/HuongDanCanThiep/DayTreTapTrungMucCao'> <a href="#" className="btn btn-danger">Xem chi tiết</a> </Link>
               </div>
             </div>
           </Box>
@@ -41,14 +41,14 @@ const HuongDanCanThiep = () => {
             <div className="card-body">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
-                  <h5 className="card-title">  II. THỰC HÀNH CÁC CHIẾN LƯỢC CAN THIỆP HIỆU QUẢ </h5>
+                  <h5 className="card-title">  II. DẠY TRẺ GIẢI QUYẾT TÌNH HUỐNG ĐƠN GIẢN </h5>
                 </div>
                 <div className='card-body-new'>
                   <p className="card-text"> Hướng dẫn các chiến lược, hay cách cha mẹ dạy trẻ trong bất kỳ hoạt động nào như phát triển nhận thức, giao tiếp, chơi đùa, tự chăm sóc bản thân, v.v. Bên cạnh đó, là hướng dẫn các cha mẹ hỗ trợ trong các tình huống trẻ khó khăn về xử lý cảm giác của trẻ. Các chiến lược này rất quan trọng để cha mẹ dạy trẻ hiệu quả, nên cần được thực hành mọi lúc, mọi nơi </p>
                 </div>
               </div>
               <div className='btn-XemChiTiet'>
-                <Link to='/' className="btn btn-danger">Xem chi tiết </Link>
+                <Link to='/HuongDanCanThiep/DayTreGiaiQuyetTinhHuongCoBan' className="btn btn-danger">Xem chi tiết </Link>
               </div>
             </div>
           </Box>
@@ -56,14 +56,14 @@ const HuongDanCanThiep = () => {
             <div className="card-body">
               <div className='card-danhsach'>
                 <div className='new-header-card'>
-                  <h5 className="card-title"> III. GỢI Ý CÁC HOẠT ĐỘNG CAN THIỆP </h5>
+                  <h5 className="card-title"> III. DẠY TRẺ TẬP TRUNG MỨC CAO </h5>
                 </div>
                 <div className='card-body-new'>
-                  <p className="card-text"> Hướng dẫn bằng video cách dạy trẻ các hoạt động từ mức dễ tới khó trong 8 lĩnh vực: học tập, chơi đùa, giao tiếp, vận động và thể thao, tự chăm sóc bản thân và làm việc nhà, hiểu cảm xúc và điều tiết hành vi, tham gia hoạt động cộng đồng, xây dựng các mối quan hệ.					 </p>
+                  <p className="card-text"> Hướng dẫn để trẻ có thể tập trung một mức cao độ khi học tập hoặc chơi đùa</p>
                 </div>
               </div>
               <div className='btn-XemChiTiet'>
-                <Link to='/' className="btn btn-danger">Xem chi tiết </Link>
+                <Link to='/HuongDanCanThiep/DayTreChoiGiaVo' className="btn btn-danger">Xem chi tiết </Link>
               </div>
             </div>
           </Box>

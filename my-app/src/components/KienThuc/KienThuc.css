@@ -3,7 +3,6 @@
     color: #ffffff;
     background-color: #9a6e0d;
     height: 100px;
-    text-align: left;
     padding: 10px;
 }
 .card-body
@@ -28,4 +27,20 @@
     background-color: #9a6e0d;
     height: 200px;
     border: 1px solid;
+}
+
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .responsive-textarea {
+        width: 100%; /* Full width on larger screens */
+    }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+    .responsive-textarea {
+        width: 100%; /* Full width on smaller screens */
+        height: 200px; /* Adjust height */
+    }
 }
